@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     #do the actual training
     res, name = response(line)
-    csv_file = "genres_output.csv"
+    csv_file = "genres_output1.csv"
 
     with open(csv_file, mode='a', newline='') as file:
         writer = csv.writer(file)

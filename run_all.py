@@ -17,7 +17,7 @@ def mkdir(dir):
 
 if __name__ == "__main__":
 
-    line_vals = [line for line in range(1, 146208)]  # Example line values
+    line_vals = [line for line in range(1, 73104)]  # Example line values
     cuda_devices = [None]
     num_commands = 8
 
@@ -29,10 +29,12 @@ if __name__ == "__main__":
     processes = {device: [] for device in cuda_devices}
     device_index = 0
 
-    csv_filename = "genres_output.csv"
+    csv_filename = "genres_output1.csv"
+    print(f"Creating CSV file: {os.path.abspath(csv_filename)}")
     with open(csv_filename, mode="w", newline="") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["line","Name" ,"genres"])
+        writer.writerow(["line", "Name" , "genres"])
+    print(f"CSV file created at: {os.path.abspath(csv_filename)}")
 
     for line in line_vals:
         
