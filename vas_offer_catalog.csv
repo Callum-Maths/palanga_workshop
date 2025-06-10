@@ -1,0 +1,13 @@
+vas_name,price_norm,type,channels,can_offer
+Movies,0.014285,channel_package,Balticum Auksinis;Duo6;FilmZone;FilmZone+;Eurochannel;Viasat Kino Comedy;Epic Drama;FilmBox Arthouse,1
+News,0.014285,channel_package,Bloomberg TV;SkyNews;CNBC;France24 Francais;France24 English,1
+Entertainment,0.014285,channel_package,Fight Sports;Setanta Sports 1;Setanta Sports 2;Love Nature 4K;Duo5,1
+Documentaries,0.014285,channel_package,Viasat Explore;Viasat History;DocuBox;Viasat Nature;TravelXP,1
+Leisure,0.014285,channel_package,Mezzo;Discovery IDX;Food Network;FunBox 4K;InUltra 4K,1
+TeliaPlay+,0.028571,platform,Disney Channel;Disney Junior;Cartoonito;Nick Jr;Da Vinci Learning;JimJam;Kidzone Mini;Smartzone;Duck TV,1
+HBO,0.032857,platform,,1
+Outside_basic,-,platform,,0
+Outside_sport,-,channel_package,outside Sport 1;outside Sport 2,0
+Outside_films,-,channel_package,outside Film;Viasat Kino;Viasat Kino Action;Viasat Kino World,0
+Outside_films_sport,-,channel_package,outside Sport 1;outside Sport 2;outside Film;Viasat Kino;Viasat Kino Action;Viasat Kino World,0
+Outside_extra_sport,-,channel_package,outside Sport 1; outside Sport 2,0
