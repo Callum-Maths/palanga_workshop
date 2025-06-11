@@ -35,6 +35,8 @@ unique_ages = df['customer_age_group'].unique()
 valid_ages = []
 valid_total_means = []
 valid_fmf_means = []
+valid_fmf_stds = []
+
 for i, age in enumerate(unique_ages):
     if age is not None and not pd.isna(age):
         stats = age_stats(age)
